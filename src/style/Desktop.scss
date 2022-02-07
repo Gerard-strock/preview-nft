@@ -30,7 +30,7 @@ body {
   border-radius: 15px;
   margin-bottom: 25px;
   box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.15);
-  font-family: "Outfit", sans-serif;
+  font-family: var(--Family);
   color: var(--White);
   font-size: var(--Font-size-paragraph);
 }
@@ -74,11 +74,6 @@ body {
   color: var(--Cyan);
 }
 
-@keyframes background {
-  100% {
-    background-color: var(--Cyan);
-  }
-}
 .author-credits {
   font-family: var(--Family);
   color: var(--White);
@@ -86,4 +81,10 @@ body {
 }
 .credits-mentor {
   color: var(--Soft-blue);
+}
+
+@keyframes background {
+  100% {
+    background-color: var(--Cyan);
+  }
 }
