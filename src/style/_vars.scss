@@ -1,0 +1,18 @@
+:root {
+  //Primary
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  // neutral
+  --Very-dark-blue-mainBG: hsl(217, 54%, 11%);
+  --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+
+  //Tipografia
+  --Font-size-paragraph: 0.8rem;
+  --Family: "Outfit", sans-serif;
+
+  //Shadow
+  --Shadow: box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.15);
+}

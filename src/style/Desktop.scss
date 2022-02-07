@@ -1,0 +1,89 @@
+@import './vars';
+
+body {
+  font-size: 62.5%;
+}
+.bg-color-section {
+  display: flex;
+  background-color: var(--Very-dark-blue-mainBG);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 1px);
+}
+.logo-eth {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.logo-eth:hover {
+  animation-name: background;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+.eth-top {
+  display: grid;
+  align-items: center;
+  background-color: var(--Very-dark-blue-card-BG);
+  max-width: 300px;
+  height: auto;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.15);
+  font-family: "Outfit", sans-serif;
+  color: var(--White);
+  font-size: var(--Font-size-paragraph);
+}
+.info-eth {
+  display: flex;
+  justify-content: space-between;
+}
+.typo-eth {
+  color: var(--Cyan);
+  margin-left: 1px;
+}
+.typo-clock {
+  color: var(--Soft-blue);
+}
+.clock-img {
+  margin-right: 3px;
+  vertical-align: middle;
+}
+.eth-logo {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.avatar-img {
+  max-width: 8%;
+  border: 1px solid var(--White);
+  margin-right: 25px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.credits {
+  border-top: 1px solid gray;
+}
+.paraph-credits {
+  align-items: center;
+  color: var(--Soft-blue);
+}
+.paraph-credits-span {
+  color: var(--White);
+}
+.paraph-credits-span:hover {
+  color: var(--Cyan);
+}
+
+@keyframes background {
+  100% {
+    background-color: var(--Cyan);
+  }
+}
+.author-credits {
+  font-family: var(--Family);
+  color: var(--White);
+  font-size: 10px;
+}
+.credits-mentor {
+  color: var(--Soft-blue);
+}
